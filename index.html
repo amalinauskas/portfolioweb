@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <!-- Style link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>My CV</title>
   </head>
   <body>
@@ -31,10 +39,12 @@
             <a class="navbar__links" id="about-page" href="#about">About</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__links" id="services-page" href="#services">Skills</a>
+            <a class="navbar__links" id="services-page" href="#services"
+              >Skills</a
+            >
           </li>
           <li class="navbar__btn">
-            <a class="button" id="signup" href="#sign-up">Send <i class="far fa-envelope"></i></a>
+            <a class="button" id="signup" href="#sign-up">Contacts</a>
           </li>
         </ul>
       </div>
@@ -45,7 +55,7 @@
       <div class="hero__container">
         <h1 class="hero__heading">Choose your <span>coder</span></h1>
         <p class="hero__description">Unlimited possibiliieies</p>
-        <button class="main__btn"><a href="#">Explore</a></button>
+        <button class="main__btn"><a href="#about">Explore</a></button>
       </div>
     </div>
 
@@ -56,10 +66,18 @@
           <div class="main__img--card"><i class="far fa-grin-beam"></i></div>
         </div>
         <div class="main__content">
-          <h1>What do I do?</h1>
+          <h1>About me</h1>
           <h2>Front End programer</h2>
-          <p>I recently graduated from CodeAcademy</p>
-          <button class="main__btn"><a href="#">Give Me a Call <i class="fas fa-phone"></i></a></button>
+          <p>
+            I’m 32 years old, I’ve just finished CodeAcademy courses in
+            Front-end development, have a bachelor’s degree in Business and
+            Enterprise Management, studied one semester in Portugal, Porto, with
+            Erasmus. Spend some time abroad working, and trying to figure out
+            what I want to do next.
+          </p>
+          <!-- <button class="main__btn">
+            <a href="#">Give Me a Call <i class="fas fa-phone"></i></a>
+          </button> -->
         </div>
       </div>
     </div>
@@ -69,23 +87,52 @@
       <h1>My Skills</h1>
       <div class="services__wrapper">
         <div class="services__card">
-          <h2>CSS / SCSS</h2>
-          <p>I'm baby drinking vinegar retro taiyaki irony freegan letterpress photo booth activated charcoal chambray kale chips mustache.</p>
-          <!-- <div class="services__btn"><button>Get Started</button></div> -->
-        </div>
-        <div class="services__card">
-          <h2>HTML</h2>
-          <p>Etsy PBR&B DIY messenger bag roof party pop-up semiotics. XOXO vape tattooed, blue bottle chambray lumbersexual tilde 8-bit 90's lomo mlkshk hashtag crucifix ethical.</p>
+          <h2>ReactJs</h2>
+          <p>
+            One of the main things I learned through the classes was ReactJs.
+            Including styled-components, storybook, jwt token, and other npm.
+            Check out one of my CRUD project on
+            <a
+              class="sLink"
+              href="https://github.com/amalinauskas/frontfe"
+              target="_blank"
+              >GitHub</a
+            >.
+          </p>
           <!-- <div class="services__btn"><button>Get Started</button></div> -->
         </div>
         <div class="services__card">
           <h2>JavaScript</h2>
-          <p>Kickstarter scenester tilde, banh mi DIY humblebrag ugh knausgaard migas brooklyn palo santo jianbing.</p>
+          <p>
+            After I get a grip of HTML and CSS/SASS I dived in the deep waters
+            of JavaScript. This CRUD project made with vanila JS and no
+            libraries or frameworks.
+            <a
+              class="sLink"
+              href="https://github.com/amalinauskas/vet-shop"
+              target="_blank"
+              >Link to project</a
+            >.
+          </p>
           <!-- <div class="services__btn"><button>Get Started</button></div> -->
         </div>
         <div class="services__card">
-          <h2>BootStrap</h2>
-          <p>Tbh forage dreamcatcher keffiyeh palo santo snackwave poke irony messenger bag air plant jianbing biodiesel hella wayfarers. </p>
+          <h2>Node.js</h2>
+          <p>
+            I was using Node.js mostly for back-end API services, working with
+            console and npm.
+          </p>
+          <!-- <div class="services__btn"><button>Get Started</button></div> -->
+        </div>
+        <div class="services__card">
+          <h2>Other:</h2>
+          <p>
+            MySQL, <br />
+            MongoDB, <br />
+            HTML, <br />
+            CSS/SASS, <br />
+            Postman API
+          </p>
           <!-- <div class="services__btn"><button>Get Started</button></div> -->
         </div>
       </div>
@@ -95,71 +142,72 @@
     <div class="main" id="sign-up">
       <div class="main__container">
         <div class="main__content">
-          <h1>Again about Me</h1>
-          <h2>End Word</h2>
-          <p>I appreciate your consideration</p>
+          <h1>Contact me</h1>
+          <h2><i class="far fa-phone"></i> +37060161755</h2>
+          <p><i class="far fa-envelope"></i> andrius.malinauskas@gmail.com</p>
+          <p>
+            <i class="fab fa-linkedin"></i>
+            <a
+              class="cLink"
+              href="https://www.linkedin.com/in/andrius-malinauskas-913656221"
+              target="_blank"
+            >
+              My LinkedIn</a
+            >
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a
+              class="cLink"
+              href="https://github.com/amalinauskas"
+              target="_blank"
+            >
+              My GitHub</a
+            >
+          </p>
           <!-- <button class="main__btn"><a href="#"><i class="far fa-laugh-beam"></i></a></button> -->
         </div>
         <div class="main__img--container">
-          <div class="main__img--card" id="card-2"><i class="fas fa-users"></i></div>
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Footer section -->
     <div class="footer__container">
-      <!-- <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/sign-up">How it works</a>
-            <a href="/sign-up">Testimonials</a>
-            <a href="/sign-up">Careers</a>
-            <a href="/sign-up">Terms of Services</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/sign-up">How it works</a>
-            <a href="/sign-up">Testimonials</a>
-            <a href="/sign-up">Careers</a>
-            <a href="/sign-up">Terms of Services</a>
-          </div>
-        </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/sign-up">How it works</a>
-            <a href="/sign-up">Testimonials</a>
-            <a href="/sign-up">Careers</a>
-            <a href="/sign-up">Terms of Services</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/sign-up">How it works</a>
-            <a href="/sign-up">Testimonials</a>
-            <a href="/sign-up">Careers</a>
-            <a href="/sign-up">Terms of Services</a>
-          </div>
-        </div>
-      </div> -->
       <section class="social__media">
         <div class="social__media--wrap">
           <div class="footer_logo">
             <a href="/" id="footer_logo">Hire Andrius</a>
           </div>
-          <p class="website__rights">© Hire Andrius 2021. All rights reserved</p>
+          <p class="website__rights">Hire Andrius 2022</p>
           <div class="social__icons">
-            <a href="https://www.facebook.com/andrius.malinauskas.3" class="social__icon--link" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/qyoyi/" class="social__icon--link" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/andrius-malinauskas-913656221" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a
+              href="https://www.facebook.com/andrius.malinauskas.3"
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/qyoyi/"
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/andrius-malinauskas-913656221"
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </div>
         </div>
       </section>
     </div>
 
     <!-- javascript -->
-    <script src="app.js">
-
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
